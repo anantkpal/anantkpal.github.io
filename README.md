@@ -1,4 +1,4 @@
-anantkpal.github.io
+anantkpal.in
 ===================
 
-My Website
+My personal site
