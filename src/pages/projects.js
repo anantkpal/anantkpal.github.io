@@ -3,11 +3,11 @@ import Page from './page'
 import { Column, Row } from '../components/layout'
 
 const Projects = () => (
-  <Page background="#E8EAF6" padding="30px" color="#303F9F">
-    <Column padding="20px 0" maxHeight="fit-content">
+  <Page background="#E8EAF6" padding="0 30px" color="#303F9F">
+    <Column maxHeight="fit-content" minHeight="fit-content">
       <h1>Projects</h1>
     </Column>
-    <Row maxHeight="max-content" minHeight="250px" flexWrap="wrap" padding="10px" >
+    <Row maxHeight="max-content" minHeight="fit-content" padding="10px" >
       <Column padding="10px" border="2px solid #303F9F" margin="10px" borderRadius="10px">
         <a  rel="noopener noreferrer" href="https://github.com/anantkpal/awsrcompressor/" target="_blank"><h2>awsrcompressor - (HTML,JS,CSS Compressor)</h2></a>
         <span>
@@ -25,7 +25,7 @@ const Projects = () => (
       </Column>
 
     </Row>
-    <Row maxHeight="max-content" minHeight="250px" flexWrap="wrap" padding="10px" >
+    <Row maxHeight="max-content" minHeight="fit-content" padding="10px" >
       <Column padding="10px" border="2px solid #303F9F" margin="10px" borderRadius="10px">
         <a rel="noopener noreferrer" href="https://github.com/anantkpal/jQAList/" target="_blank"><h2>jQAList</h2></a>
         <span>

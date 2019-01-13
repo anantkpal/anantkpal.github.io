@@ -3,7 +3,7 @@ import Page from './page'
 import { Column } from '../components/layout'
 
 const Talk = () => (
-  <Page background="#E8EAF6" padding="30px" color="#303F9F">
+  <Page background="#E8EAF6" padding="0 30px" color="#303F9F">
     <Column padding="20px 0" maxHeight="fit-content">
       <h1>Talks</h1>
     </Column>

@@ -31,3 +31,27 @@ h3 {
 p {
     font-size: 25px;
 }
+
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 25px;
+        padding: 5px;
+    }
+
+    h2 {
+        font-size: 20px;
+        padding: 5px;
+        margin: 0px;
+    }
+
+    h3 {
+        font-size: 15px;
+        padding: 5px;
+        margin: 0px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}

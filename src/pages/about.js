@@ -3,7 +3,7 @@ import Page from './page'
 import { Column } from '../components/layout'
 
 const About = () => (
-  <Page background="#E8EAF6" color="#303F9F" padding="30px">
+  <Page background="#E8EAF6" color="#303F9F" padding="0 30px" style={{ overflowY: 'scroll'}}>
     <h1>About</h1>
     <Column maxHeight="max-content">
       <p>
